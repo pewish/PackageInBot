@@ -1,7 +1,7 @@
 import sqlite3
 import telebot
 from telebot import types
-bot = telebot.TeleBot('5913582630:AAH-1PK3PJ3NqB1kPsPHfWiJQDxfu0WTLRE')
+bot = telebot.TeleBot('%token%')
 
 
 @bot.message_handler(commands = ['start'])
